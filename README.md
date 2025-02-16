@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WatchShare - Real-Time Screen Sharing
 
-## Getting Started
+**WatchShare** is a simple and efficient screen-sharing application that allows users to create a room and share their screen with others in real-time. Whether you're presenting to an audience, collaborating on a project, or teaching an online class, WatchShare makes it easy to connect and share your screen instantly.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Create a Room**: Quickly create a room to start screen sharing with others.
+- **Join a Room**: Join an existing room using a room code or shareable link.
+- **Real-Time Screen Sharing**: Share your screen with participants in real-time.
+- **Cross-Browser Support**: Works seamlessly across modern browsers (Chrome, Edge, etc.) with support for both audio and video sharing.
+- **Easy to Use**: User-friendly interface to manage sessions and join rooms with minimal steps.
+- **Modern UI**: Designed with **ShadCN UI** and **Magic UI** for a clean, responsive, and intuitive user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Next.js**: For building the application and routing.
+- **React**: For building interactive components.
+- **PeerJS**: For real-time peer-to-peer connection for screen sharing.
+- **Tailwind CSS**: For styling and UI components.
+- **ShadCN UI**: A UI component library to enhance the design and user experience.
+- **Magic UI**: Another UI library to ensure modern and dynamic interface elements.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/your-username/watchshare.git
+   cd watchshare
+2. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+3. Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm run dev
+Visit http://localhost:3000 in your browser to see the app in action.
+
+---
+
+## How to Use
+**Create a Room** : Navigate to the "Create Room" page, and click "Create Room" to start screen sharing. You will be given a unique room code and shareable link to send to others.
+
+**Join a Room**: Navigate to the "Join Room" page, enter the room code or use the shareable link to join an existing session and view the presenter's screen.
