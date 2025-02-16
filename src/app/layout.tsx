@@ -61,6 +61,9 @@ export default function RootLayout({
         {children}
         <Toaster />
         <Analytics />
+        <footer className="fixed bottom-0 w-full text-center p-4 bg-gray-900 text-gray-400">
+          Built by <a href="https://www.sankettank.me" className="text-indigo-400 hover:text-indigo-300 underline" target="_blank" rel="noopener noreferrer">me</a>. You can view this code on <a href="https://github.com/sankettank66/watchshare" className="text-indigo-400 hover:text-indigo-300" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </footer>
       </body>
     </html>
   );

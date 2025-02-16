@@ -31,7 +31,7 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/watchshare.git
+   git clone https://github.com/sankettank66/WatchShare.git
    cd watchshare
 2. Install dependencies:
 
